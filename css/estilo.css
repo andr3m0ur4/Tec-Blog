@@ -1,6 +1,7 @@
 @charset "utf-8";
 
-/* Limpar as formatações padrões */
+/**************************************************************/
+/****************** Formatações padrões ***********************/
 * {
 	margin: 0;
 	padding: 0;
@@ -12,11 +13,15 @@ body {
 	background: #f3f3f3;
 }
 
-/* Formatação do menu */
+/**************************************************************/
+/****************** Formatação do menu ************************/
 #navegacao {
 	background: #fff;
 	border-bottom: 1px solid #d8d8d8;
 	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0;
 }
 
 #area {
@@ -54,9 +59,51 @@ a:hover {
 	color: #fff;
 	background: #b9c941;
 }
+
 /* Links não active */
+a:active {
+	color: #535353;
+}
+
+/**************************************************************/
+/************** Formatação da área principal ******************/
+#area-principal {
+	width: 720px;
+	margin: 55px auto;
+}
+
+#postagem {
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: #b9c941;
+}
 
 /* Classes */
 .verde {
 	color: #b9c941;
+}
+
+.data-postagem {
+	font-size: .9em;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.img-postagem {
+	float: left;
+	margin: 0 10px 5px 0;
+	width: 175px;
+}
+
+.postado {
+	border-left: 5px solid #d8d8d8;
+	padding-left: 5px;
+	display: block;
+	margin-top: 20px;
 }
