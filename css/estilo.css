@@ -15,7 +15,7 @@ body {
 
 /**************************************************************/
 /****************** Formatação do menu ************************/
-#navegacao {
+header {
 	background: #fff;
 	border-bottom: 1px solid #d8d8d8;
 	height: 45px;
@@ -33,7 +33,7 @@ body {
 	float: left;
 }
 
-#menu {
+nav {
 	float: right;
 	padding: 10px 0;
 }
@@ -67,12 +67,12 @@ a:active {
 
 /**************************************************************/
 /************** Formatação da área principal ******************/
-#area-principal {
+section {
 	width: 720px;
 	margin: 55px auto;
 }
 
-#postagem {
+article {
 	background: #fff;
 	padding: 10px;
 	margin-bottom: 10px;
